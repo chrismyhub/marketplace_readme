@@ -75,7 +75,7 @@ This Marketplace Application will have the following features/functionalities:
 
 ---
 ## Sitemap
-<!-- <img src="./docs/class_diagram.png" alt="class_diagram" title=""> -->
+<img src="./docs/sitemap_1.png" alt="sitemap" title="">
 
 ---
 ## Wireframes	
@@ -88,7 +88,7 @@ This Marketplace Application will have the following features/functionalities:
 ---
 
 ### Entity Relationship Diagram (ERD):
-<img src="./docs/erd.png" alt="erd" title="">
+<img src="./docs/erd_1.png" alt="erd" title="">
 
 ---
 
