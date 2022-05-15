@@ -191,6 +191,7 @@ Explain if using Trello and user stories.
   - Pundit
   - Bundler
   - pg
+  - therubyracer
 - Deployment Platform: Heruko
   
 
