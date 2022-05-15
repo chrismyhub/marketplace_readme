@@ -22,7 +22,7 @@
 
 Heroku:
 
-(INCOMPLETE)
+(https://floating-plateau-30854.herokuapp.com/)
 
 ---
 
@@ -189,6 +189,7 @@ Explain if using Trello and user stories.
   - Rolify
   - Pundit
   - Bundler
+  - pg
 - Deployment Platform: Heruko
   
 
