@@ -22,7 +22,8 @@
 
 Heroku:
 
-(https://floating-plateau-30854.herokuapp.com/)
+https://floating-plateau-30854.herokuapp.com/
+https://git.heroku.com/floating-plateau-30854.git
 
 ---
 
