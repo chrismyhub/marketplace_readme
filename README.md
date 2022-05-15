@@ -4,15 +4,17 @@
  ## Description of Application
 
 - Identification of the problem you are trying to solve by building this particular marketplace app.
+  - Trying to solve an issue to do with street parking where parking spots are very limited or where first come first serve is the name of the game.  By having a means to book a spot, this will attempt to solve the issue.  This is by no means a 100% guaruntee spot saving system, but it aims to give those who really want a spot a fighting chance to secure a space by letting it known to the world.  This will allow someone who is able to save/secure a parking spot to help and get rewarded in the process.
 
 - Why is it a problem that needs solving?
+  - Time and time again, I have found myself in this exact scenario, whereby there are limited spots to street parking and it is a first come first serve basis.  I kept thinking if only there was a way to secure this spot before hand, it would make life so much easier.  I have heard similar stories from other drivers, so I know I'm not the only one thinking the same thing.
 
 - Purpose of app?
+  - The purpose of the app is to provide a platform for someone in need of saving a parking spot (will be referred to as the 'customer') and someone who is willing to reserve this spot (will be referred to as the 'provider').  The 'customer' will post up a request on the website, with the location, date, time and reward on offer.  The 'provider' can either choose to accept or look for another opportunity.  If the 'provider' accepts the request, they will need to ensure that the spot can be secured, which is why the reward/payment will not be released to the 'provider' until the request has been physically fulfilled (i.e. the 'provider' waits for the 'customer' to arrive at the agreed spot and the car spot is given to the 'customer').  Upon completion of the request, the reward/payment will be released to the 'provider'.
 
 - Target audience?
+  - The target audience is anyone in need of securing a parking spot that cannot otherwise be secured through other means wihtin Australia.  It doesn't restrict to only those with vehicles, it could for example also include person travelling with someone with a vehicle.  
 
-
-(INCOMPLETE)
 
 ---
 
@@ -28,7 +30,7 @@ Heroku:
 
 Github:
 
-(INCOMPLETE)
+https://github.com/chrismyhub/save_my_spot
 
 ---
 
@@ -44,42 +46,55 @@ Trello:
 ## Features/Functionality
 This Marketplace Application will have the following features/functionalities:
 
-<!-- 1. Display Staff current Annual Leave and Credits.
-   - This feature will allow the user to retrieving leave details from the existing database.
+1. Display all requests currently available.
+   - This feature will allow all users to see what requests are available to accept near them.
 
-2. Manage Staff Name (Create - save new name/Update - rename/Delete -name)
-   - This feature includes:
-  
-     - Create new staff - New staff member will enter name, role and password and the app will auto-generate a unique Staff ID to be used for requesting and deleting leave as well as update staff name and password.  These details will be automatically added to the existing staff database.
-  
-     - Updating Existing Staff Name and Password - Staff login used for validating user before allowing changes to name or password in the existing database.  User input for user name and password would go through valid validation conditions (i.e. empty entries).
-  
-     - Deleting Existing Staff -  Staff login used for validating user, only existing staff can be deleted in the existing database.
+2. Create new requests and add them to the current listing.
+   - This feature will allow those who want to request a spot to be saved to post their requests and let it be known, so that a potential 'provider' can assist with the request.
 
+3.  Edit current requests posted.
+   - This feature will allow the original poster to edit the request in case there are changes to the initial plan.
 
-3. Manage Staff Annual Leave (Create/Delete)
-   - This feature includes:
+4. Delete current requests posted.
+   - This feature will allow the original poster to remove the request in case there has been a change in plans or no longer required.
 
-     - Requesting Leave - Staff login used for validating user and a date validation before leave is requested.  Date validation includes, database checking for double booking of same staff member and for minimum required staff at work. 
-  
-     - Deleting Existing Leave - Staff login used for validating user, only existing requested leave can be deleted through database checking.  
+5. Allow users to leave feedback and rating on their experience with other users through the platform.
+   - So that others can be informed of a positive or negative experience if deciding whether or not to engage the 'provider' or to assist with a potential 'customer'.
 
+6. Allow users to generate a profile so that personal information necessary to carry out the request can be exchanged when needed.  
+   - Information such as name, contact number and vehicle details so that both the 'provider' and 'customer' can identify each other on the day of the exchange.
 
-4. Manage staff login (password validation)
-   - Staff ID and password are validated through database checking and confirming they exist and their credentials match. 
+7. Allow user's profiles to attach a vehicle or multiple vehicles.
+   - This will allow vehicle details such as vehicle type, color, make, year of manufacture and license plate to be added for engaged users to easily identify one another on the day of the exchange.
 
 
-
-5. Exit Option from Main/Leave Menu
-   - To log out from the app after user has finished with it. -->
 
 ---
 ## Sitemap
-<img src="./docs/sitemap_1.png" alt="sitemap" title="">
+<img src="./docs/sitemap_2.png" alt="sitemap" title="">
 
 ---
-## Wireframes	
-<!-- <img src="./docs/class_diagram.png" alt="class_diagram" title=""> -->
+## Wireframes
+#### Landing Page	
+<img src="./docs/wf_index.png" alt="wf_index" title="">
+
+#### Listings Page	
+<img src="./docs/wf_listings.png" alt="wf_listings" title="">
+
+#### New Request Page	
+<img src="./docs/wf_new_request.png" alt="wf_new_request" title="">
+
+#### Profile Page	
+<img src="./docs/wf_profile.png" alt="wf_profile" title="">
+
+#### Request Details Page	
+<img src="./docs/wf_request_details.png" alt="wf_request_details" title="">
+
+#### User Feedback Page	
+<img src="./docs/wf_user_feedback.png" alt="wf_user_feedback" title="">
+
+#### Vehicle(s) Page	
+<img src="./docs/wf_vehicle.png" alt="wf_vehicle" title="">
 
 ---
 ## Screenshots of Application	
