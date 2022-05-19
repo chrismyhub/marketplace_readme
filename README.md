@@ -39,6 +39,8 @@ https://github.com/chrismyhub/save_my_spot
 
 Trello:
 
+https://trello.com/b/eOdxzMuF/marketplace-app-kanban
+
 (INCOMPLETE)
 <!-- <img src="./docs/class_diagram.png" alt="class_diagram" title=""> -->
   
@@ -191,7 +193,7 @@ Explain if using Trello and user stories.
   - Pundit
   - Bundler
   - pg
-  - therubyracer
+  - ffi
 - Deployment Platform: Heruko
   
 
